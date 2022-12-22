@@ -3,13 +3,8 @@ using System.IO;
 
 namespace Practical_9_6_Task_1
 {
-    internal class Program
+    internal partial class Program
     {
-        class MyException: Exception
-        {            
-            public MyException(string message) : base(message) { }
-        }
-
         static void Main()
         {            
             Exception[] exceptions = 
